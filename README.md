@@ -25,15 +25,18 @@ Consider a form that requires users to enter a phone number.
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:editors="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs"
              x:Class="MaskedEntrySample.MainPage">
+    
     <VerticalStackLayout WidthRequest="350" Spacing="30" Padding="30">
+        
         <!-- Standard Entry -->
         <Entry Placeholder="Enter phone number"  ClearButtonVisibility="WhileEditing"/>
+        
         <!-- SfMaskedEntry -->
         <editors:SfMaskedEntry ClearButtonVisibility="WhileEditing"
                         MaskType="Simple"
                         Mask="(000) 000-0000"
                         Placeholder="Enter phone number"/>
     </VerticalStackLayout>
+
 </ContentPage>
 ```
-
