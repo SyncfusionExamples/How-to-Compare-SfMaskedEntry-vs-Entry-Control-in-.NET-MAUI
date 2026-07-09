@@ -4,28 +4,19 @@
              xmlns:editors="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs"
              x:Class="MaskedEntrySample.MainPage">
 
-
     <VerticalStackLayout WidthRequest="350" Spacing="30" Padding="30">
-
         <!-- Standard Entry -->
         <VerticalStackLayout WidthRequest="250" Spacing="10">
-
             <Label Text="Standard Entry" FontAttributes="Bold"/>
             <Entry Placeholder="Enter phone number"  ClearButtonVisibility="WhileEditing"/>
-
         </VerticalStackLayout>
-
-
         <!-- SfMaskedEntry -->
         <VerticalStackLayout WidthRequest="250" Spacing="10">
-
             <Label Text="SfMaskedEntry" FontAttributes="Bold"/>
             <editors:SfMaskedEntry ClearButtonVisibility="WhileEditing"
                         MaskType="Simple"
                         Mask="(000) 000-0000"
                         Placeholder="Enter phone number"/>
-
         </VerticalStackLayout>
-
     </VerticalStackLayout>
 </ContentPage>
